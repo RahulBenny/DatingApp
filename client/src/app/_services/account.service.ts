@@ -41,7 +41,7 @@ export class AccountService {
       })
     )
   }
-  setCurrentUser(user: User) {
+  setCurrentUser(user: User | undefined) {
     this.currentUserSource.next(user);
   }
 
