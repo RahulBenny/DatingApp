@@ -20,6 +20,10 @@
           </li>
         </ng-container>
 
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/errors"> errors</a>
+        </li>
+
       </ul>
 
       <div ngbDropdown *ngIf="(accountService.currentUser$ | async) as user">
